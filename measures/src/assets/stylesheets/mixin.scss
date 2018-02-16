@@ -1,0 +1,31 @@
+@mixin hide-hr() {
+  hr {
+    display: none;
+  }
+}
+
+@mixin dataset-div() {
+   margin-top: -14px;
+    margin-left: 29px;
+    width: 14%;
+
+    .tab-number {
+      margin-left: -28px;
+      margin-top: 11px;
+
+      div {
+        color: $white;
+        margin-left: 6px;
+        font-family: cursive;
+        font-size: 7px;
+        padding-top: 3px;
+      }
+    }
+
+    .tab-label {
+      margin-top: -14px;
+      margin-left: -8px;
+      margin-bottom: -5px;
+      font-size: 12px;
+    }
+}

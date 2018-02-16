@@ -1,0 +1,46 @@
+@import 'colors';
+@import 'mixin';
+
+.measure-details {
+    .md-tabs-container {
+        .md-background--primary {
+          background: none;
+          padding-left: 0px !important;
+          color: #4a4a4a;
+        }
+        .md-tab-label {
+          text-transform: capitalize;
+          font-size: 12px;
+        }
+    }
+}
+
+.select-dataset-div {
+   @include dataset-div();
+}
+
+.refine-dataset-div {
+  @include dataset-div(); 
+  margin-top: -5% !important;
+  margin-left: 25% !important;
+}
+
+.add-computation-div{
+  @include dataset-div();
+  margin-top: -5% !important;
+  margin-left: 45% !important;
+  width: 17% !important;
+}
+
+.output-attributes-div {
+ @include dataset-div();
+  margin-top: -5% !important;
+  margin-left: 68% !important;
+  width: 15% !important;
+}
+
+.summary-div {
+  @include dataset-div();
+  margin-top: -5% !important;
+  margin-left: 89% !important;
+}
